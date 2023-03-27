@@ -29,6 +29,15 @@ As user I can:
 - PATCH /powers/:id update a powers id and save
 - GET /hero_powers return all hero_powers
 - POST /hero_powers create a hero_power and save it.
+{
+
+  "strength": "Average",
+
+  "power_id": 1,
+
+  "hero_id": 3
+
+}
 
 ## Videolink
 [![Watch the video](video)]()
