@@ -31,7 +31,7 @@ As user I can:
 - POST /hero_powers create a hero_power and save it.
 
 ## Videolink
-Watch the video
+[![Watch the video](video)]()
 
 ## Bugs
 There are no bugs in the project
