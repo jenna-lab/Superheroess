@@ -38,3 +38,4 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_27_054257) do
   add_foreign_key "hero_powers", "heroes"
   add_foreign_key "hero_powers", "powers"
 end
+# rails generate serializer HeroPower --no-test-framework
