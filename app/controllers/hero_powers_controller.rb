@@ -9,13 +9,14 @@ class HeroPowersController < ApplicationController
     #POST /hero_powers
     def create
       heropower = HeroPower.new(hero_power_params)
-  
+    
       if heropower.save
-        render json: heropower.hero, serializer: HeroPowerSerializer, status: :created
+        render json: heropower, serializer: HeroPowerSerializer, status: :created
       else
         render json: { errors: "validation errors" }, status: :unprocessable_entity
       end
     end
+    
 
     private
 
