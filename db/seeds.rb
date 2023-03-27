@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+# rails g model Power name description:string --no-test-framework
+# rails g model Hero name super_name:string --no-test-framework
+
