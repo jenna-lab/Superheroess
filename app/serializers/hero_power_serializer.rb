@@ -1,3 +1,4 @@
 class HeroPowerSerializer < ActiveModel::Serializer
-  attributes :id
-end
+  attributes :id, :name, :super_name
+
+  has_many :powersend
