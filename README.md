@@ -40,4 +40,4 @@ There are no bugs in the project
 jensam209@gmail.com
 
 ## License
-License 'https://github.com/jenna-lab/superheroess/blob/main/License.md' **jennifer sammy.
+License 'https://github.com/jenna-lab/superheroess/blob/main/LICENSE.md' **jennifer sammy.
